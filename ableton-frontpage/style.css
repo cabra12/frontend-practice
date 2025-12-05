@@ -1,0 +1,22 @@
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+}
+
+nav li {
+    height: 2.5em;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+nav li:last-child {
+    margin-right: auto;
+}
